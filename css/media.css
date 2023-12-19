@@ -1,25 +1,25 @@
 @media (max-width: 992px) {
 
-    .main-nav {
+    #hero-section .main-nav {
         max-width: 330px;
     }
 
     #about-section .row {
-        display: block;
+        flex-direction: column;
     }
 
     #about-section .decription {
         width: 100%;
+        margin-top: 0;
+        padding-right: 0px;
     }
 
     #about-section img {
         width: 100%;
-        order: 1;
     }
 
     #rules-section .rules {
         width: 100%;
-        order: 2;
     }
 
     #rules-section img {
@@ -27,7 +27,7 @@
     }
 
     #rules-section .row {
-        flex-direction: column;
+        flex-direction: column-reverse;
 
     }
 
@@ -72,6 +72,10 @@
 
 @media (max-width: 768px) {
 
+    .container {
+        padding: 0 30px;
+    }
+
     h2 {
         font-size: 50px;
     }
@@ -84,12 +88,20 @@
         padding-bottom: 120px;
     }
 
+    #hero-section .hero-banner-info {
+        margin-top: 140px;
+    }
+
     #hero-section .hero-banner-info>p {
         width: 80%;
     }
 
     #hero-section .hero-banner-info>h1 {
         font-size: 80px;
+    }
+
+    #about-section .decription p {
+        margin-bottom: 20px;
     }
 
     #quests-section .card .quest-description {
@@ -123,16 +135,54 @@
         order: 1;
         margin-bottom: 30px;
     }
+}
 
-    #contacts-section .most-important-info {
-        font-size: 30px;
+@media (max-width: 500px) {
+
+    .container {
+        padding: 0 25px;
     }
 
-    #contacts-section .less-important-info {
-        font-size: 24px;
+    #hero-section .hero-banner-info>h1 {
+        font-size: 70px;
     }
 
-    #contacts-section .contacts-phone-number>a>span {
-        font-size: 30px;
+    #hero-section .header-phone-number>a>span {
+        font-size: 18px;
+    }
+
+    #hero-section .hero-banner-info {
+        margin-top: 140px;
+        text-align: center;
+    }
+
+    #hero-section .hero-banner-info>p {
+        margin: 0 auto 40px;
+    }
+
+    #about-section .button-about {
+        text-align: center;
+    }
+
+    #quests-section .card .quest-description .card-footer {
+        flex-direction: column-reverse;
+    }
+
+    #quests-section .card .quest-description .quest-features {
+        margin-bottom: 10px;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    #quests-section .card .quest-description .card-footer span {
+        margin-bottom: 15px;
+    }
+
+    #quests-section .card h3 {
+        font-size: 48px;
+    }
+
+    #quests-section .card .quest-description {
+        padding: 20px 15px;
     }
 }

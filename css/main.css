@@ -231,6 +231,7 @@ h2 {
     display: flex;
     column-gap: 60px;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 #quests-section .card .quest-description p {
