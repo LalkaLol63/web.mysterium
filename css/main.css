@@ -1,0 +1,393 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: TT Limes Slab;
+    src: url("fonts/TTLimesSlab-Regular.otf");
+}
+
+body {
+    background: #000;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.row {
+    display: flex;
+}
+
+h2 {
+    font-family: TT Limes Slab;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2.1px;
+    margin-bottom: 20px;
+}
+
+#hero-section {
+    background: url("background/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-bottom: 270px;
+}
+
+#hero-section #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#hero-section .logo>img {
+    height: 40px;
+    width: 130px;
+}
+
+#hero-section .main-nav {
+    max-width: 450px;
+    width: 100%;
+}
+
+#hero-section .main-nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-section .main-nav>ul>li>a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hero-section .header-phone-number>a>span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#hero-section .hero-banner-info {
+    margin-top: 180px;
+}
+
+#hero-section .hero-banner-info>h1 {
+    font-family: TT Limes Slab;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122.4%;
+    letter-spacing: 3.6px;
+}
+
+#hero-section .hero-banner-info>p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.72px;
+    margin-bottom: 40px;
+    width: 40%;
+}
+
+.main-button {
+    display: inline-flex;
+    padding: 16px 70px 16px 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    border-radius: 55px;
+    background: #E85D04;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#about-section .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-section .decription {
+    margin-top: 70px;
+    padding-right: 10px;
+    width: 40%;
+}
+
+#about-section img {
+    width: 57%;
+}
+
+#about-section .decription p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%;
+    letter-spacing: 0.54px;
+    margin-bottom: 40px;
+}
+
+#about-section .decription .imporatant-info {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137%;
+    letter-spacing: 0.54px;
+}
+
+#rules-section img {
+    width: 50%;
+}
+
+#rules-section .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rules-section .rules {
+    width: 48%;
+}
+
+#rules-section .rule-icon {
+    max-width: 50px;
+    max-height: 50px;
+    align-self: flex-start;
+    margin-right: 25px;
+}
+
+#rules-section .rule p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0.54px;
+    margin: 10px 0 30px;
+}
+
+#rules-section .row-li {
+    display: flex;
+}
+
+#rules-section .rule span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+#quests-section {
+    margin-bottom: 100px;
+}
+
+#quests-section .quest-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#quests-section .card {
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid #E0E0E0;
+    overflow: hidden;
+    justify-content: space-between;
+    height: auto;
+}
+
+#quests-section .card h3 {
+    font-family: TT Limes Slab;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+
+#quests-section .card .quest-img {
+    width: 45%;
+    object-fit: cover;
+}
+
+#quests-section .card .quest-description {
+    width: 50%;
+    padding: 50px 60px 50px 0;
+}
+
+#quests-section .card .quest-description .quest-features {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 25px;
+}
+
+#quests-section .card .quest-description p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142%;
+    margin-bottom: 20px;
+}
+
+#quests-section .card .quest-description .quest-features ul li {
+    display: flex;
+    align-items: center;
+}
+
+#quests-section .card .quest-description .quest-features ul li:first-child {
+    margin-bottom: 15px;
+}
+
+#quests-section .card .quest-description .quest-features ul li span {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+#quests-section .card .quest-description .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quests-section .card .quest-description .card-footer .booking {
+    display: flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    border-radius: 45px;
+    background: #E85D04;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#quests-section .card .quest-description .card-footer span {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#gallery-section {
+    margin-bottom: 100px;
+}
+
+#gallery-section h2 {
+    margin-bottom: 20px;
+}
+
+#gallery-section .row {
+    column-gap: 2%;
+}
+
+#gallery-section .gallery-photo {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#contacts-section {
+    margin-bottom: 100px;
+}
+
+#contacts-section .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contacts-section .map-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+#contacts-section .map-image img {
+    border-radius: 20px;
+}
+
+#contacts-section .contacts-info {
+    width: 40%;
+}
+
+#contacts-section .most-important-info {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#contacts-section .metro-info {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#contacts-section .metro-info img {
+    margin-right: 10px;
+}
+
+#contacts-section .less-important-info {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#contacts-section .contacts-phone-number>a>span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+#contacts-section .contacts-phone-number {
+    margin-bottom: 5px;
+}
+
+#contacts-section .mail {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#contacts-section .social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+}
+
+footer {
+    background: #101010;
+}
+
+footer .footer-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer .footer-strip .copyright-text>span {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}

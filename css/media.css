@@ -1,0 +1,138 @@
+@media (max-width: 992px) {
+
+    .main-nav {
+        max-width: 330px;
+    }
+
+    #about-section .row {
+        display: block;
+    }
+
+    #about-section .decription {
+        width: 100%;
+    }
+
+    #about-section img {
+        width: 100%;
+        order: 1;
+    }
+
+    #rules-section .rules {
+        width: 100%;
+        order: 2;
+    }
+
+    #rules-section img {
+        width: 100%;
+    }
+
+    #rules-section .row {
+        flex-direction: column;
+
+    }
+
+    #quests-section {
+        margin-bottom: 50px;
+    }
+
+    #quests-section .card {
+        flex-direction: column;
+    }
+
+    #quests-section .card .quest-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #quests-section .card .quest-description {
+        width: 100%;
+        padding: 50px 60px;
+    }
+
+    #gallery-section {
+        margin-bottom: 50px;
+    }
+
+    #contacts-section .most-important-info {
+        font-size: 24px;
+    }
+
+    #contacts-section .less-important-info {
+        font-size: 20px;
+    }
+
+    #contacts-section .contacts-phone-number>a>span {
+        font-size: 24px;
+    }
+
+    #contacts-section .contacts-info {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 50px;
+    }
+
+    #hero-section .main-nav {
+        display: none;
+    }
+
+    #hero-section {
+        padding-bottom: 120px;
+    }
+
+    #hero-section .hero-banner-info>p {
+        width: 80%;
+    }
+
+    #hero-section .hero-banner-info>h1 {
+        font-size: 80px;
+    }
+
+    #quests-section .card .quest-description {
+        padding: 25px 30px;
+    }
+
+    #quests-section .card .quest-description .card-footer span {
+        font-size: 30px;
+    }
+
+    #gallery-section .row {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    #contacts-section {
+        margin-bottom: 50px;
+    }
+
+    #contacts-section .row {
+        flex-direction: column;
+    }
+
+    #contacts-section .map-image {
+        width: 100%;
+        order: 2;
+    }
+
+    #contacts-section .contacts-info {
+        width: 100%;
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    #contacts-section .most-important-info {
+        font-size: 30px;
+    }
+
+    #contacts-section .less-important-info {
+        font-size: 24px;
+    }
+
+    #contacts-section .contacts-phone-number>a>span {
+        font-size: 30px;
+    }
+}
